@@ -1,4 +1,5 @@
-// API-key	Rlm4cmv2wK39K_MvAcOL7bMaokhXdbnF7lBn94nbRUZv
+// This is the text to speech, creating a specified audio-file
+// API-key	Use your own key
 // URL 		https://gateway-lon.watsonplatform.net/text-to-speech/api
 
 package main
@@ -16,7 +17,7 @@ func main() {
 	textToSpeech, textToSpeechErr := texttospeechv1.
 		NewTextToSpeechV1(&texttospeechv1.TextToSpeechV1Options{
 			URL: "https://gateway-lon.watsonplatform.net/text-to-speech/api",
-			IAMApiKey: "Rlm4cmv2wK39K_MvAcOL7bMaokhXdbnF7lBn94nbRUZv",
+			IAMApiKey: "/* Use your own key!*/",
 		})
 	if textToSpeechErr != nil {
 		panic(textToSpeechErr)
