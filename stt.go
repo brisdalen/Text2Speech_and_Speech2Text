@@ -1,4 +1,5 @@
-// API-key ykQgXaO-15Np0ldiS4zSjBs2GDVeOpBXhbRfl0LkoYlh
+// This is speech to text
+// API-key Use your own key
 // URL	   https://gateway-lon.watsonplatform.net/speech-to-text/api
 package main
 
