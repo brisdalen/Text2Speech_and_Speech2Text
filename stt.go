@@ -12,7 +12,7 @@ import (
 	"github.com/IBM/go-sdk-core/core"
 )
 
-const key = "ykQgXaO-15Np0ldiS4zSjBs2GDVeOpBXhbRfl0LkoYlh"
+const key = "---"
 const url = "https://gateway-lon.watsonplatform.net/speech-to-text/api"
 
 func main() {
